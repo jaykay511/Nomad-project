@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+
+  <title>Nomad | Group 4</title>
+</head>
+
+<body id="backgroundimg">
+
+  <div class="wrapper">
+
+    <div id="firstSearch" class="container text-center">
+      <div class="row">
+        <div class="col travelApp">
+          <p id="appname">Nomad</p>
+          <div class="search">
+            <input type="search" class="search-box" id='search-city' />
+            <span class="search-button" id="search-btn">
+              <span class="search-icon"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav id="navbar" class="navbar navbar-light navBackground">
+      <a class="navbar-brand">
+        <div id="cityNameNav">
+        </div>
+      </a>
+      <form class="form-inline">
+
+        <a href="information.html">
+          <button id="search-btn" class="btn my-2 my-sm-0 home-btn" type="submit">Home</button>
+        </a>
+
+      </form>
+    </nav>
+
+    <div class="container text-center">
+
+      <!-- WEATHER SECTION -->
+      <div class="row">
+        <div class="col border infoDiv" id="weather">
+          <h2>Weather</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- NEWS SECTION -->
+        <div class="col-6 border infoDiv" id="news">
+          <h2>News</h2>
+        </div>
+
+        <!-- EVENT SECTION -->
+        <div class="col-6 border infoDiv" id="event">
+          <h2>Event</h2>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="push"></div>
+  </div>
+
+  <footer class="footer text-center">
+
+    Copyright &copy; 2019
+    <p class="footerDev">Developed by Group 4</p>
+
+  </footer>
+
+
+  <!-- jQuery and JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
